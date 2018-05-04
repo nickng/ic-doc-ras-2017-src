@@ -1,0 +1,57 @@
+\documentclass[a3,landscape]{a0poster}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{url}
+\usepackage[margin=2em]{geometry}
+
+\hyphenpenalty=10000
+\hbadness=10000
+
+\usepackage{polyglossia}
+\usepackage{fontspec}
+\usepackage{xunicode}
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[Path=./fonts/,Scale=0.95,BoldFont=*-bold,ItalicFont=*-LightItalic]{Roboto}
+\setsansfont[Path=./fonts/,Scale=0.95,BoldFont=*-bold,ItalicFont=*-LightItalic]{Roboto}
+\newfontfamily\titlefont[Path=./fonts/,Scale=0.95]{Raleway-Bold}
+
+\definecolor{icdarkblue}{RGB}{0,51,102}
+\definecolor{icmiddleblue}{RGB}{0,82,150}
+\definecolor{iclightblue}{RGB}{200,212,232}
+\definecolor{icmiddlered}{RGB}{204,51,0}
+\definecolor{iclightred}{RGB}{232,212,32}
+
+\begin{document}
+\textcolor{icmiddleblue}{\LARGE Department of Computing}\\[1cm]
+{\titlefont{\fontsize{4cm}{4.8cm}\selectfont \color{icdarkblue}
+RA~Symposium}}~{\bf\fontsize{3.8cm}{4.6cm}\selectfont\color{icmiddleblue} 2017}
+\vskip 0.3em
+\noindent
+\makebox[\linewidth]{\rule{\paperwidth}{1pt}}
+\LARGE
+\vskip 0.2em
+\noindent
+One-day workshop to showcase postdoctoral research\\[1cm]
+\begin{minipage}{0.79\linewidth}
+\begin{tabular}{r@{\quad}l}
+What &{\titlefont 10} research talks \& keynote by HoD\\
+When &\textcolor{icmiddlered}{Friday 23\textsuperscript{th} June 2017}, 9:30am -- 4pm\\
+Where&\textcolor{icmiddlered}{Huxley LT311}\\
+\end{tabular}
+\\[2mm]
+\end{minipage}
+\begin{minipage}{0.19\linewidth}
+\includegraphics[width=\linewidth]{qrcode}
+\end{minipage}\\[2mm]
+All are welcome to attend, \textbf{register now} $\downarrow$
+\vskip 0.2em
+\noindent
+\makebox[\linewidth]{\rule{\paperwidth}{1pt}}
+\vskip 0.2em
+\noindent
+{\large Registration \& Schedule $\rightarrow$
+{\url{wp.doc.ic.ac.uk/postdocs/ra-symposium-2017}}}\\
+{\small Contact RA Reps: William Culhane, Nicholas Ng, Daniele Ravi
+\{w.culhane,nickng,d.ravi\}@imperial.ac.uk}
+
+\end{document}
